@@ -36,6 +36,12 @@ function AdminRoute({ children }) {
 }
 
 export default function App() {
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => {
+      navigator.serviceWorker.register("/sw.js");
+    });
+  }
+
   return (
     <Router>
       <div className="min-h-screen bg-gray-100">
