@@ -5,8 +5,8 @@ const path = require("path");
 function createWindow() {
   const startUrl = process.env.ELECTRON_START_URL;
   const iconPath = startUrl
-    ? path.join(__dirname, "public", "movementor-favicon.svg")
-    : path.join(__dirname, "dist", "movementor-favicon.svg");
+    ? path.join(__dirname, "public", "icon-152.png")
+    : path.join(__dirname, "dist", "icon-152.png");
 
   const win = new BrowserWindow({
     width: 1280,

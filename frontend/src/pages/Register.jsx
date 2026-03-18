@@ -51,7 +51,7 @@ export default function Register() {
           <div className="hidden lg:flex flex-col justify-between p-10 text-white bg-gradient-to-br from-emerald-500/30 via-sky-500/20 to-blue-500/20 border-r border-white/20">
             <div>
               <div className="inline-flex items-center gap-2 rounded-full border border-white/30 bg-white/15 px-3 py-1.5 text-sm font-semibold">
-                <img src="/movementor-favicon.svg" alt="MoveMentor logo" className="h-5 w-5 rounded-sm" />
+                <img src="/icon-152.png" alt="MoveMentor logo" className="h-5 w-5 rounded-full object-cover" />
                 MoveMentor
               </div>
               <h1 className="mt-5 text-4xl font-bold leading-tight">Build your strongest routine.</h1>
@@ -70,7 +70,7 @@ export default function Register() {
             <div className="mx-auto w-full max-w-sm">
               <div className="mb-6">
                 <div className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-slate-50 px-3 py-1.5 text-xs font-semibold text-slate-700 lg:hidden">
-                  <img src="/movementor-favicon.svg" alt="MoveMentor logo" className="h-4 w-4 rounded-sm" />
+                  <img src="/icon-152.png" alt="MoveMentor logo" className="h-4 w-4 rounded-full object-cover" />
                   MoveMentor
                 </div>
                 <h2 className="mt-3 text-3xl font-bold text-slate-900">Create account</h2>

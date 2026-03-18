@@ -215,7 +215,7 @@ function ChatHeader({ language, onLanguageChange, t }) {
     <div className="p-4 border-b border-slate-200 bg-gradient-to-r from-sky-50 to-emerald-50">
       <div className="flex items-center justify-between gap-2">
         <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-[13px] font-bold bg-white text-sky-700 border border-sky-100">
-          <img src="/movementor-favicon.svg" alt="MoveMentor logo" className="w-5 h-5 rounded-sm" />
+          <img src="/icon-152.png" alt="MoveMentor logo" className="w-5 h-5 rounded-full object-cover" />
           <span>Move Mentor AI Coach</span>
         </div>
         <select
@@ -522,7 +522,7 @@ export default function Dashboard() {
         >
           <div>
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-[13px] font-bold bg-white/15 border border-white/25">
-              <img src="/movementor-favicon.svg" alt="MoveMentor logo" className="w-5 h-5 rounded-sm" />
+              <img src="/icon-152.png" alt="MoveMentor logo" className="w-5 h-5 rounded-full object-cover" />
               <span>{t.performanceHub}</span>
             </div>
             <p className="text-xs text-sky-100 mt-2">{t.language}: {LANG_LABELS[language] || "English"}</p>

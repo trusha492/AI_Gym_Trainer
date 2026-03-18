@@ -37,9 +37,13 @@ function AdminRoute({ children }) {
 
 export default function App() {
   if ("serviceWorker" in navigator) {
-    window.addEventListener("load", () => {
-      navigator.serviceWorker.register("/sw.js");
-    });
+    navigator.serviceWorker.register("/sw.js").
+      then(() => console.log("Service Worker Registered")).
+      catch((err) => console.error("Service Worker Registration Failed:", err));
+  }
+
+  if(window.matchMedia("(display-mode: standalone)").matches) {
+    console.log("Running as PWA");
   }
 
   return (

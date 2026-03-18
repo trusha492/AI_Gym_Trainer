@@ -9,7 +9,7 @@ export const getChatHistory = async () => {
 
 // Text-only chat
 export const sendChatMessage = async (message, preferredLanguage = "en") => {
-  const res = await axios.post("/api/chatbot/chat", {
+  const res = await axios.post("/api/chat", {
     message,
     preferred_language: preferredLanguage,
   });
