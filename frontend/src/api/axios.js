@@ -1,7 +1,7 @@
 // src/api/axios.js
 import axios from "axios";
 
-const baseURL = import.meta.env.VITE_API_URL || "http://localhost:8000";
+const baseURL = "https://ai-gym-trainer-ecru.vercel.app";
 baseURL: "/api"
 const API = axios.create({
   baseURL,
